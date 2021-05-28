@@ -21,13 +21,15 @@
         function SharedLibComponent() {
         }
         SharedLibComponent.prototype.ngOnInit = function () {
+            console.log(this.lineChartData, 'line');
+            console.log(this.lineChartLabels, 'labe');
         };
         return SharedLibComponent;
     }());
     SharedLibComponent.decorators = [
         { type: i0.Component, args: [{
                     selector: 'lib-shared-lib',
-                    template: "<canvas baseChart class=\"chart\" [datasets]=\"lineChartData\" [labels]=\"lineChartLabels\" [options]=\"lineChartOptions\"\r\n    [colors]=\"lineChartColours\" [legend]=\"lineChartLegend\" ></canvas>"
+                    template: "<h1>chart</h1>\r\n<canvas baseChart width=\"400\" height=\"400\"\r\n[datasets]=\"lineChartData\"\r\n[labels]=\"lineChartLabels\"\r\n[options]=\"lineChartOptions\"\r\n[colors]=\"lineChartColors\"\r\n[legend]=\"lineChartLegend\"\r\n[chartType]=\"lineChartType\"\r\n[plugins]=\"lineChartPlugins\">\r\n</canvas>"
                 },] }
     ];
     SharedLibComponent.ctorParameters = function () { return []; };
@@ -35,8 +37,10 @@
         lineChartData: [{ type: i0.Input }],
         lineChartLabels: [{ type: i0.Input }],
         lineChartOptions: [{ type: i0.Input }],
-        lineChartColours: [{ type: i0.Input }],
-        lineChartLegend: [{ type: i0.Input }]
+        lineChartColors: [{ type: i0.Input }],
+        lineChartLegend: [{ type: i0.Input }],
+        lineChartType: [{ type: i0.Input }],
+        lineChartPlugins: [{ type: i0.Input }]
     };
 
     var SharedLibModule = /** @class */ (function () {

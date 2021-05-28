@@ -11,8 +11,11 @@ export class SharedLibComponent implements OnInit {
   @Input() lineChartData : any
   @Input() lineChartLabels :any;
   @Input() lineChartOptions :any;
-  @Input() lineChartColours:any;
+  @Input() lineChartColors:any;
   @Input() lineChartLegend:any;
+  @Input() lineChartType:any;
+  @Input() lineChartPlugins:any;
+
     constructor() { }
 
 

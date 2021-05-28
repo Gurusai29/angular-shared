@@ -3,8 +3,10 @@ export declare class SharedLibComponent implements OnInit {
     lineChartData: any;
     lineChartLabels: any;
     lineChartOptions: any;
-    lineChartColours: any;
+    lineChartColors: any;
     lineChartLegend: any;
+    lineChartType: any;
+    lineChartPlugins: any;
     constructor();
     ngOnInit(): void;
 }
