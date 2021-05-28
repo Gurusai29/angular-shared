@@ -13,9 +13,11 @@
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
             "tsConfig": "projects/shared-lib/tsconfig.lib.json",
-            "project": "projects/shared-lib/ng-package.json",
-            "scripts": [ "node_modules/chart.js/dist/Chart.min.js"]
+            "project": "projects/shared-lib/ng-package.json"
           },
+          "scripts": [
+            "node_modules/chart.js/dist/Chart.min.js"
+          ],
           "configurations": {
             "production": {
               "tsConfig": "projects/shared-lib/tsconfig.lib.prod.json"
@@ -41,9 +43,10 @@
               "**/node_modules/**"
             ]
           }
-        } 
+        }
       }
-    }},
+    }
+  },
   "cli": {
     "analytics": false
   },
