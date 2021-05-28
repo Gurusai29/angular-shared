@@ -17,6 +17,8 @@ export class SharedLibComponent implements OnInit {
 
 
   ngOnInit(): void {
+    console.log(this.lineChartData , 'line')
+    console.log(this.lineChartLabels , 'labe')
   }
 
 }
