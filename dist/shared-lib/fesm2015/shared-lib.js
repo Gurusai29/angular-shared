@@ -22,7 +22,16 @@ class SharedLibComponent {
 SharedLibComponent.decorators = [
     { type: Component, args: [{
                 selector: 'lib-shared-lib',
-                template: "<h1>chart</h1>\r\n<canvas baseChart width=\"400\" height=\"400\"\r\n[datasets]=\"lineChartData\"\r\n[labels]=\"lineChartLabels\"\r\n[options]=\"lineChartOptions\"\r\n[colors]=\"lineChartColors\"\r\n[legend]=\"lineChartLegend\"\r\n[chartType]=\"lineChartType\"\r\n[plugins]=\"lineChartPlugins\">\r\n</canvas>"
+                template: `<h1>chart</h1>
+  <canvas baseChart width="400" height="400"
+  [datasets]="lineChartData"
+  [labels]="lineChartLabels"
+  [options]="lineChartOptions"
+  [colors]="lineChartColors"
+  [legend]="lineChartLegend"
+  [chartType]="lineChartType"
+  [plugins]="lineChartPlugins">
+  </canvas>`
             },] }
 ];
 SharedLibComponent.ctorParameters = () => [];

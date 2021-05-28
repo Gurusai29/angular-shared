@@ -3,7 +3,16 @@ import { ChartDataSets, ChartOptions } from 'chart.js';
 
 @Component({
   selector: 'lib-shared-lib',
-  templateUrl: './shared-lib.component.html',
+  template: `<h1>chart</h1>
+  <canvas baseChart width="400" height="400"
+  [datasets]="lineChartData"
+  [labels]="lineChartLabels"
+  [options]="lineChartOptions"
+  [colors]="lineChartColors"
+  [legend]="lineChartLegend"
+  [chartType]="lineChartType"
+  [plugins]="lineChartPlugins">
+  </canvas>`,
   styles: []
 })
 export class SharedLibComponent implements OnInit {
