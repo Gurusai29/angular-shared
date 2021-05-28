@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ChartDataSets, ChartOptions } from 'chart.js';
 
 @Component({
   selector: 'lib-shared-lib',
@@ -7,8 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SharedLibComponent implements OnInit {
 
-  @Input() 
-  lineChartData : any
+  @Input() lineChartData : any
   @Input() lineChartLabels :any;
   @Input() lineChartOptions :any;
   @Input() lineChartColours:any;

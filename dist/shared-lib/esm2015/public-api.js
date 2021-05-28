@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of shared-lib
+ */
+export * from './lib/shared-lib.service';
+export * from './lib/shared-lib.component';
+export * from './lib/shared-lib.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJFOi9hbmd1bGFyLXNoYXJlZC9wcm9qZWN0cy9zaGFyZWQtbGliL3NyYy8iLCJzb3VyY2VzIjpbInB1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLDBCQUEwQixDQUFDO0FBQ3pDLGNBQWMsNEJBQTRCLENBQUM7QUFDM0MsY0FBYyx5QkFBeUIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygc2hhcmVkLWxpYlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL3NoYXJlZC1saWIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9zaGFyZWQtbGliLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9zaGFyZWQtbGliLm1vZHVsZSc7XG4iXX0=
