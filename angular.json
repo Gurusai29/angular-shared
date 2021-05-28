@@ -13,7 +13,8 @@
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
             "tsConfig": "projects/shared-lib/tsconfig.lib.json",
-            "project": "projects/shared-lib/ng-package.json"
+            "project": "projects/shared-lib/ng-package.json",
+            "scripts": [ "node_modules/chart.js/dist/Chart.min.js"]
           },
           "configurations": {
             "production": {
@@ -40,7 +41,7 @@
               "**/node_modules/**"
             ]
           }
-        }
+        } 
       }
     }},
   "cli": {

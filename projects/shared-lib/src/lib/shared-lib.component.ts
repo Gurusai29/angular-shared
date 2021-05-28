@@ -7,9 +7,13 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SharedLibComponent implements OnInit {
 
-  @Input()
-  data : String
-  constructor() { }
+  @Input() 
+  lineChartData : any
+  @Input() lineChartLabels :any;
+  @Input() lineChartOptions :any;
+  @Input() lineChartColours:any;
+  @Input() lineChartLegend:any;
+    constructor() { }
 
 
   ngOnInit(): void {
