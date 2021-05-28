@@ -27,7 +27,7 @@
     SharedLibComponent.decorators = [
         { type: i0.Component, args: [{
                     selector: 'lib-shared-lib',
-                    template: "<canvas baseChart width=\"400\" height=\"400\" [datasets]=\"lineChartData\" [labels]=\"lineChartLabels\"\r\n    [options]=\"lineChartOptions\" [colors]=\"lineChartColors\" [legend]=\"lineChartLegend\">\r\n</canvas>"
+                    template: "<canvas baseChart class=\"chart\" [datasets]=\"lineChartData\" [labels]=\"lineChartLabels\" [options]=\"lineChartOptions\"\r\n    [colors]=\"lineChartColours\" [legend]=\"lineChartLegend\" ></canvas>"
                 },] }
     ];
     SharedLibComponent.ctorParameters = function () { return []; };
