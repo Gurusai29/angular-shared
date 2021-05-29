@@ -14,7 +14,7 @@ import { ChartDataSets, ChartOptions } from 'chart.js';
   [chartType]="lineChartType"
   [plugins]="lineChartPlugins">
   </canvas>
-  </div>`,
+  </div> `,
   styles: []
 })
 export class SharedLibComponent implements OnInit {
