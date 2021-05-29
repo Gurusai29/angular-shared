@@ -4,6 +4,7 @@ import { ChartDataSets, ChartOptions } from 'chart.js';
 @Component({
   selector: 'lib-shared-lib',
   template: `<h1>chart</h1>
+  <div style="display: block;">
   <canvas baseChart width="400" height="400"
   [datasets]="lineChartData"
   [labels]="lineChartLabels"
@@ -12,7 +13,8 @@ import { ChartDataSets, ChartOptions } from 'chart.js';
   [legend]="lineChartLegend"
   [chartType]="lineChartType"
   [plugins]="lineChartPlugins">
-  </canvas>`,
+  </canvas>
+  </div>`,
   styles: []
 })
 export class SharedLibComponent implements OnInit {
