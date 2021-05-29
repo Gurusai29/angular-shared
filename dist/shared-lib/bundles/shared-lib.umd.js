@@ -29,7 +29,7 @@
     SharedLibComponent.decorators = [
         { type: i0.Component, args: [{
                     selector: 'lib-shared-lib',
-                    template: "<h1>chart</h1>\n  <canvas baseChart width=\"400\" height=\"400\"\n  [datasets]=\"lineChartData\"\n  [labels]=\"lineChartLabels\"\n  [options]=\"lineChartOptions\"\n  [colors]=\"lineChartColors\"\n  [legend]=\"lineChartLegend\"\n  [chartType]=\"lineChartType\"\n  [plugins]=\"lineChartPlugins\">\n  </canvas>"
+                    template: "<h1>chart</h1>\n  <div style=\"display: block;\">\n  <canvas baseChart width=\"400\" height=\"400\"\n  [datasets]=\"lineChartData\"\n  [labels]=\"lineChartLabels\"\n  [options]=\"lineChartOptions\"\n  [colors]=\"lineChartColors\"\n  [legend]=\"lineChartLegend\"\n  [chartType]=\"lineChartType\"\n  [plugins]=\"lineChartPlugins\">\n  </canvas>\n  </div>"
                 },] }
     ];
     SharedLibComponent.ctorParameters = function () { return []; };
